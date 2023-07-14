@@ -16,8 +16,8 @@
 - SSHagent plugin For Jenkins
 - Install Maven,Docker,AWS Cli and Terraform in Jenkins Instance
 - Docker,Git and AWS credentials should be added in Jenkins Credentials Manager
-- Update credentials variable in Jenkinsfile
-- Update Variables in Terraform/variables
+- Update Credentials variable in Jenkinsfile
+- Update Variables in terraform/variables.tf
 
 ## S3 Bucket
 `We need to manually create S3 bucket named 'myapp-bucket', to store terraform state remotely`
