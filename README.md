@@ -19,3 +19,5 @@
 - Update credentials variable in Jenkinsfile
 - Update Variables in Terraform/variables
 
+#### Note
+`In Jenkinsfile, provision stage`
