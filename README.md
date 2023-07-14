@@ -1,4 +1,4 @@
-# terraform-cicd-pipeline
+# Terraform CI/CD Pipeline
 
 ## **List of Tools used**
 - Maven 
@@ -20,7 +20,7 @@
 - Update Variables in Terraform/variables
 
 ## S3 Bucket
-We need to manually create S3 bucket named 'myapp-bucket', to store terraform state remotely
+`We need to manually create S3 bucket named 'myapp-bucket', to store terraform state remotely`
 
 #### Note
-`In Jenkinsfile, provision stage we wait for 90 seconds in that time we wait for aws services to be provisioned and install dependencies, if we don't wait and instance hasn't been created beforehand ,deployment stage will fail`
+`In Jenkinsfile, provision stage we wait for 90 seconds in that time we wait for aws services to be provisioned and install dependencies, if we don't wait and the instance hasn't been created beforehand, deployment stage will fail`
